@@ -159,6 +159,7 @@
 
 .footer-content {
   padding: 0 0 0 2em;
+  font-size: 13px;
 }
 
 /* Footer Section */
@@ -193,34 +194,55 @@
 
 .fullname {
   margin: 1em 0 0 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.email {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.number {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.optional {
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .input-name {
   height: 30px;
   width: 400px;
-  border: 0.5px solid gray;
+  border: 0.5px solid rgb(199, 199, 199);
   margin: 0 0 1em 0;
+  padding: 0 0 0 10px;
 }
 
 .input-email {
   height: 30px;
   width: 400px;
-  border: 0.5px solid gray;
+  border: 0.5px solid rgb(199, 199, 199);
   margin: 0 0 1em 0;
+  padding: 0 0 0 10px;
 }
 
 .input-number {
   height: 30px;
   width: 400px;
-  border: 0.5px solid gray;
+  border: 0.5px solid rgb(199, 199, 199);
   margin: 0 0 1em 0;
+  padding: 0 0 0 10px;
 }
 
 .input-optional {
   height: 30px;
   width: 400px;
-  border: 0.5px solid gray;
+  border: 0.5px solid rgb(199, 199, 199);
   margin: 0 0 2em 0;
+  padding: 0 0 0 10px;
 }
 
 .button {
@@ -234,4 +256,9 @@
 
 .end-part {
   text-align: center;
+  margin: 2em 1em 0 0;
+}
+
+.superscript {
+  color: red;
 }
